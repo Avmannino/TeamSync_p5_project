@@ -1,0 +1,63 @@
+.navbar {
+  display: flex;
+  position: relative;
+  top: -45vh;
+  background-color: rgb(44, 62, 80);
+  justify-content: space-between;
+  border-radius: 30px;
+  align-items: center;
+  padding: 0 20px;
+  height: 75px;
+  width: 85vh;
+  border: 3px solid rgb(44, 62, 88);
+  -webkit-box-shadow: 0px 8px 11px 0.5px #000000;
+  box-shadow: 0px 8px 11px 0.5px #000000;
+}
+
+.nav-logo img {
+  width: 5.5vw;
+  margin-top: -66px;
+  margin-left: -30px;
+  position: absolute;
+  line-height: 15px;
+
+
+
+}
+
+.nav-items {
+  display: inline-block;
+  align-items: center;
+}
+
+
+
+.nav-link {
+  display: inline-block;
+  text-align: center;
+  font-family: nowayback;
+  font-size: 28px;
+  color: #bdc3c7;
+  /* Light grey for a subtle look */
+  text-decoration: none;
+  padding: 3px 25px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-right: 5px double rgba(0, 0, 0, 1.0);
+
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  background-color: #ffa600;
+  /* Slightly darker on hover for contrast */
+  color: #006577;
+}
+
+@media (max-width: 768px) {
+  .nav-items {
+    display: none;
+    /* Simplify for mobile - consider a dropdown or toggle menu for smaller screens */
+  }
+
+  /* Add mobile-specific styles here */
+}
