@@ -1,7 +1,8 @@
 .navbar {
   display: flex;
   position: relative;
-  top: -45vh;
+  top: 3vh;
+  left: 38vw;
   background-color: rgb(44, 62, 80);
   justify-content: space-between;
   border-radius: 30px;
@@ -15,15 +16,18 @@
 }
 
 .nav-logo img {
-  width: 5.5vw;
-  margin-top: -66px;
-  margin-left: -30px;
+  width: 3vw;
+  height: auto;
+  margin-top: -5px;
+  margin-left: 20px;
   position: absolute;
+  top: 15px;
+  left: 25px;
   line-height: 15px;
-
-
-
+  display: inline;
 }
+
+
 
 .nav-items {
   display: inline-block;
@@ -60,4 +64,5 @@
   }
 
   /* Add mobile-specific styles here */
+  
 }

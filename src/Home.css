@@ -13,4 +13,22 @@ body {
       /* Center content vertically */
       background-color: rgb(107, 107, 107);
   }
+
+
+  /* Home.css */
+  
+  .home-page {
+    text-align: center; /* Centers the content */
+    padding: 20px; /* Adds some padding around the content */
+  }
+  
+  .home-page h3 {
+    margin: 0 0 20px; /* Adds margin to the bottom of the heading for spacing */
+  }
+  
+  .home-page img {
+    max-width: 15%; /* Ensures the image is responsive and doesn't overflow its container */
+    height: auto; /* Maintains the aspect ratio of the image */
+    margin-bottom: -20px; /* Adds some space below the logo */
+  }
   

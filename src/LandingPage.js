@@ -18,6 +18,7 @@ function LandingPage({ onButtonClick }) {
       <h1 className='slid'>
         <span className='slider'>
           <span className='slider__word'>Stronger</span>
+          <span className='slider__word'>Smarter</span>
           <span className='slider__word'>Harder</span>
           <span className='slider__word'>Better</span>
           <span className='slider__word'>Faster</span>

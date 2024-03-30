@@ -1,0 +1,41 @@
+body {
+      margin: 0;
+      height: 100vh;
+      width: auto;
+    }
+    
+    .scroller-container {
+      overflow: hidden;
+      white-space: nowrap;
+      display: flex; /* Changed from inline-block to flex for better alignment */
+      animation: scroll 10s linear infinite;
+      min-height: 100px;
+      margin-top: 80vh;
+    }
+    
+    .image-container {
+      display: flex; /* Utilizes Flexbox for inline arrangement */
+      padding-left: 20px;
+      align-items: center; /* Vertically centers the images in the container */
+      min-width: 3000px; /* Ensure this is wide enough to hold all logos side by side */
+    }
+    
+    @keyframes scroll {
+      0% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+    
+    .scroller-container img {
+      margin-right: 120px; /* Adjust the space between logos */
+      width: auto; /* Adjust based on your preference, or keep it auto for natural image size */
+      height: 250px; /* Maintains aspect ratio */
+    }
+    
+    .scroller-container img:last-child {
+      margin-right: 0; /* Removes margin from the last logo */
+    }
+    
