@@ -10,7 +10,9 @@ body {
       display: flex; /* Changed from inline-block to flex for better alignment */
       animation: scroll 10s linear infinite;
       min-height: 100px;
-      margin-top: 80vh;
+      margin-top: 78vh;
+      background-color: rgba(44, 62, 88, 0.5);
+      border-radius: 10px;
     }
     
     .image-container {
